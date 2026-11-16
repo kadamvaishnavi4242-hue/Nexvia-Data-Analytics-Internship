@@ -1,0 +1,38 @@
+==================================================
+PROJECT: Customer 360 and Marketing Attribution
+TEST RESULTS & KEY METRICS REPORT
+==================================================
+
+1. DATA INGESTION & SETUP (Google BigQuery)
+- Successfully ingested GA4 sample e-commerce event data.
+- Loaded synthetic CRM data (synthetic_crm_data) and ad-spend data (synthetic_ad_spend) into the 'analytics_data' dataset.
+
+2. IDENTITY RESOLUTION & dbt MODELING
+- Successfully created dbt transformation models in BigQuery:
+  * dbt_model_sessions (Unifying user session data)
+  * dbt_model_orders (Processing order transactions)
+  * dbt_model_custom_profile (Creating unified customer profiles)
+
+3. RFM & LTV SEGMENTATION METRICS
+- Segmented the customer base into key actionable groups based on Recency, Frequency, and Monetary values:
+  * Champions (High R, F, M scores)
+  * Loyal Customers 
+  * Potential Loyalists
+  * At Risk / Needs Attention (Identified for re-engagement campaigns)
+
+4. MARKETING CHANNEL PERFORMANCE & ATTRIBUTION
+- Compared First-Touch and Time-Decay attribution models to evaluate channel conversion impact.
+- Channel-wise Return on Investment (ROI) Results:
+  * Instagram: 253.20% (Highest Performing)
+  * Google: 217.80%
+  * Facebook: 206.46%
+  * YouTube: 186.59%
+
+- Cost Per Acquisition (CPA) Results:
+  * Instagram: $14.16 (Most Cost-Effective)
+  * Google: $15.73
+  * Facebook: $16.32
+  * YouTube: $17.45
+
+5. STRATEGIC RECOMMENDATIONS
+- Reallocate a higher percentage of the marketing budget toward Instagram and Google due to superior ROI (>210%) and lower acquisition costs (CPA <$16).
