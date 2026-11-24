@@ -14,7 +14,7 @@ This project builds an end-to-end Customer 360 and Multi-Touch Marketing Attribu
 1. **Data Ingestion:** Loaded GA4 sample e-commerce data alongside synthetic CRM (`synthetic_crm_data`) and ad-spend (`synthetic_ad_spend`) tables into BigQuery (`analytics_data` dataset).
 2. **Identity Resolution & dbt Modeling:** Created modular dbt models (`dbt_model_sessions`, `dbt_model_orders`, and `dbt_model_custom_profile`) to unify user sessions and customer profiles.
 3. **RFM & LTV Segmentation:** Segmented customers into actionable groups (*Champions, Loyal Customers, Potential Loyalists, At Risk / Needs Attention*) based on Recency, Frequency, and Monetary metrics.
-4. **Multi-Touch Attribution:** Built SQL queries comparing **First-Touch** and **Time-Decay** attribution models to evaluate true channel conversion impact.
+4. **Multi-Touch Attribution:** Built SQL queries comparing **First-Touch** and **Time-Decay** ,**Linear**, and **Time-Decay Attribution** models and compared their results to evaluate channel conversion impact across channels.
 5. **ROI & CPA Analysis:** Computed channel-wise Return on Investment (ROI) and Cost Per Acquisition (CPA) across Facebook, Google, Instagram, and YouTube.
 6. **Interactive BI Dashboard:** Visualized customer segments, campaign ROI, and CPA metrics in Tableau to guide marketing budget reallocation.
 
