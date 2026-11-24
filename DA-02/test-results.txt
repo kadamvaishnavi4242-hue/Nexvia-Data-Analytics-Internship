@@ -21,7 +21,7 @@ TEST RESULTS & KEY METRICS REPORT
   * At Risk / Needs Attention (Identified for re-engagement campaigns)
 
 4. MARKETING CHANNEL PERFORMANCE & ATTRIBUTION
-- Compared First-Touch and Time-Decay attribution models to evaluate channel conversion impact.
+- Compared First-Touch, Time-Decay, Last-Touch, Linear attribution models to evaluate channel conversion impact and compare model results.
 - Channel-wise Return on Investment (ROI) Results:
   * Instagram: 253.20% (Highest Performing)
   * Google: 217.80%
@@ -35,4 +35,4 @@ TEST RESULTS & KEY METRICS REPORT
   * YouTube: $17.45
 
 5. STRATEGIC RECOMMENDATIONS
-- Reallocate a higher percentage of the marketing budget toward Instagram and Google due to superior ROI (>210%) and lower acquisition costs (CPA <$16).
+- Reallocate a higher percentage of the marketing budget toward Instagram and Google due to superior ROI (>210%) and lower acquisition costs (CPA <$16), while using RFM segments for targeted retention.
