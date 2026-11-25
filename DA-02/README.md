@@ -27,4 +27,7 @@ This project builds an end-to-end Customer 360 and Multi-Touch Marketing Attribu
 2. Set up a BigQuery dataset named `analytics_data` and upload the synthetic CRM and ad-spend CSV files.
 3. Execute the SQL transformation scripts in the `/sql_queries` folder in sequence (Models $\rightarrow$ RFM $\rightarrow$ Attribution $\rightarrow$ ROI/CPA).
 4. Open the `.twb` / `.twbx` file in Tableau Desktop and connect it to your BigQuery output tables to view the live dashboard.
+
+## Project Demo Video
+[Watch DA-02 Demo Video] (https://drive.google.com/file/d/1ZiBFiWWI9BMuF_uDJnwzehOQ5R_ZcNy1/view?usp=sharing)
   
