@@ -23,7 +23,9 @@
 ​This project delivers an end-to-end Multi-Region Enterprise Business Intelligence solution built in Power BI to analyze sales, profit, quantity, profit margin, regional performance, categories, and trends. Instead of using Azure Data Factory or external SQL jobs, all data loading, cleaning, and shaping were performed directly in Power Query within Power BI Desktop, along with star schema modeling, DAX measures (YTD, YoY growth, margin %, rolling averages), drill-through views, and Row-Level Security (RLS).  
 
 ​**Folder and Files:** ./DA-01  
+
 ​**Project File:** NEXVIA_PROJECT.pbix  
+
 ​**Files Included:** DA-01/README.md, DA-01_Architecture.png, DA-01_Multi_Region_Enterprise_BI_Presentation (1).pptx, One_Page_User_Guide.md, Test_Results.md, Working_Demo_Outline.md, and Individual_Reflection.md  
 
 ​**Working Demo:** Watch DA-01 Working Demo ((https://drive.google.com/file/d/1PZ6mIB5cBMkuEmF9159GOStnb7NFrmxz/view?usp=sharing))
