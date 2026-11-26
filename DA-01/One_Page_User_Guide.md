@@ -22,4 +22,5 @@ The **Multi-Region Enterprise BI** dashboard provides a clear view of business p
 ## 4. Access & Row-Level Security (RLS) Notes
 * Regional RLS roles restrict data access to the assigned region for role-based viewers, while full access displays all regions.
 * The report is developed and verified in **Power BI Desktop** (`NEXVIA_PROJECT.pbix`) and packaged in the project repository along with supporting screenshots and documentation.
-**Data Preparation Note**: All data cleaning and shaping were completed in Power Query within Power BI Desktop, without external Azure or SQL Server dependencies.
+  
+* **Data Preparation Note**: All data cleaning and shaping were completed in Power Query within Power BI Desktop, without external Azure or SQL Server dependencies.
