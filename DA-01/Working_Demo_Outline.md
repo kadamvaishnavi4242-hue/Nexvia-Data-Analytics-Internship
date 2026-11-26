@@ -37,3 +37,4 @@ This walkthrough demonstrates how **NEXVIA_PROJECT.pbix** (**Multi-Region Enterp
 
 ## 3. Environment & Submission Note
 * Direct publishing to Power BI Service is unavailable in the current account setup, so the demo is conducted directly in **Power BI Desktop** (`NEXVIA_PROJECT.pbix`), with the `.pbix` file, screenshots, and documentation packaged in the public GitHub repository.
+* **Data Preparation Note:** Data loading, cleaning, and shaping were performed directly in Power Query within Power BI Desktop rather than using Azure Data Factory or scheduled external SQL jobs.
