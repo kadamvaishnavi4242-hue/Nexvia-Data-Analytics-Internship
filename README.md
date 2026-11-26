@@ -9,9 +9,11 @@
 
 ​**Folder and Files:**
 
-​**Folder: **./DA-02
-​**Project File:** Project1_Dashboard.twbx  
-​Files Included: DA-02/README.md, DA-02_Architecture.png, Customer_360_Presentation.pptx, dbt_model_*.sql, SQL scripts for attribution and segmentation, generate_data.py, test-results.txt, and Individual_Reflection.txt  
+​**Folder:**./DA-02
+
+​**Project File:** Project1_Dashboard.twbx 
+
+​**Files Included:** DA-02/README.md, DA-02_Architecture.png, Customer_360_Presentation.pptx, dbt_model_*.sql, SQL scripts for attribution and segmentation, generate_data.py, test-results.txt, and Individual_Reflection.txt  
 
 ​**Working Demo:** Watch DA-02 Working Demo((https://drive.google.com/file/d/1ZiBFiWWI9BMuF_uDJnwzehOQ5R_ZcNy1/view?usp=sharing))
 
