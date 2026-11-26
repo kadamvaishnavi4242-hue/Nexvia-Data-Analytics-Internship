@@ -11,3 +11,4 @@ The **Multi-Region Enterprise BI** report (`NEXVIA_PROJECT.pbix`) was verified i
 ## 3. Row-Level Security (RLS) & Environment Notes
 * **RLS Role Testing (`Manage roles` & `View as`):** Tested regional role views in Power BI Desktop. Clearing an active drill-through filter on **Drill - through Details** before using **View as** allows role-based filtering to update cleanly; leaving a prior drill-through filter active while switching role context can cause blank (`..`) or conflicting filter behavior.
 * **Publishing & Environment Note:** Direct publishing to Power BI Service is unavailable in the current account setup, so verification was completed in **Power BI Desktop** with the `.pbix` file, screenshots, and documentation prepared for the public GitHub repository.
+**Data Preparation Note:** Data transformation and shaping were executed in Power Query inside Power BI Desktop instead of relying on Azure or separate SQL services
