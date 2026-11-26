@@ -1,3 +1,0 @@
-Individual Reflection:
-
-Through this project, I gained hands-on experience in building an end-to-end Customer 360 and Marketing Attribution platform. I learned how to ingest data into Google BigQuery, implement complex dbt data transformation models, perform RFM customer segmentation, and evaluate marketing channel performance (ROI and CPA) using Tableau dashboards. This internship significantly enhanced my practical data analytics and storytelling skills.
